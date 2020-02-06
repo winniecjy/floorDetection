@@ -1,0 +1,10 @@
+item {
+  name: "floors"
+  id: 1
+  display_name: "floor"
+}
+item {
+  name: "toutu"
+  id: 2
+  display_name: "toutu"
+}

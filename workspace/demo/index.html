@@ -1,0 +1,32 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="./tfjs-examples.css" />
+  <style>
+  canvas {
+    outline: orange 2px solid;
+    margin: 10px 0;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="tfjs-example-container centered-container">
+    <section class='title-area'>
+      <h1>设计稿楼层分割DEMO</h1>
+    </section>
+
+    <p class='section-head'>模型描述</p>
+    <p>该模型用于在设计稿中分割每个楼层位置</p>
+
+    <p class='section-head'>模型状态</p>
+    <div id="status">加载模型中...</div>
+
+    <div>
+      <p class='section-head'>效果展示</p>
+      <p></button><input type="file" accept="image/*" id="test"/></p>
+      <canvas id="data-canvas" width="300" height="1100"></canvas>
+    </div>
+  </div>
+</body>
+
+<script src="index.js"></script>
