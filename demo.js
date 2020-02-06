@@ -38795,7 +38795,7 @@ async function runAndVisualizeInference(e, model) {
 }
 
 async function init() {
-  const LOCAL_MODEL_PATH = 'http://storage.jd.com/finished/floorDetection/model.json'; // 将本地模型保存到浏览器
+  const LOCAL_MODEL_PATH = 'https://public-1254389045.cos.ap-guangzhou.myqcloud.com/AI/floorDetection/model.json'; // 将本地模型保存到浏览器
   // tf.sequential().save
   // 加载本地模型
 
